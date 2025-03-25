@@ -1,0 +1,85 @@
+/* App.css */
+.app {
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  min-height: 100vh; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.timer-form {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  width: 100%; 
+  justify-content: center; 
+}
+
+.timer-form input {
+  padding: 5px;
+}
+
+.category {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%; 
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px; 
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #eee;
+  margin: 5px 0;
+}
+
+.progress-bar div {
+  height: 100%;
+  background: #4CAF50;
+  transition: width 1s linear;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center; 
+}
